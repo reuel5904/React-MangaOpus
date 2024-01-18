@@ -7,6 +7,11 @@ import { books } from "./data"
 import BookInfo from "./pages/BookInfo";
 import Cart from "./pages/Cart";
 import React, { useState, useEffect } from "react";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { } from '@fortawesome/free-brands-svg-icons'
+import { faBars, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt, faSpinner, faArrowLeft, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faBars, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt, faSpinner, faArrowLeft, faShoppingCart)
 
 function App() {
   /* Cart Functions */
